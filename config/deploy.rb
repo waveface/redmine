@@ -4,7 +4,7 @@ set :application, "redmine"
 set :repository,  "git@github.com:waveface/redmine.git"
 set :deploy_to, "/var/www/vhosts/redmine"
 set :scm, :git
-set :branch, "master"
+set :branch, "waveface"
 set :user, "deploy"
 
 role :web, "redmine.waveface.com"
