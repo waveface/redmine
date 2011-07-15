@@ -6,6 +6,7 @@ set :deploy_to, "/var/www/vhosts/redmine"
 set :scm, :git
 set :branch, "waveface"
 set :user, "deploy"
+set :git_enable_submodules, true
 
 role :web, "redmine.waveface.com"
 role :app, "redmine.waveface.com"
